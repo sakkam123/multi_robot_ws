@@ -17,3 +17,11 @@ You will also need to install the necessary dependencies for the project:
 ```bash
 sudo apt update
 sudo apt install ros-humble-slam-toolbox
+```
+### 3. Build the Workspace
+Once the repository is cloned and the dependencies are installed, you need to build the workspace:
+```bash
+cd ~/multi_robot_ws
+source /opt/ros/humble/setup.bash
+colcon build --symlink-install
+```
