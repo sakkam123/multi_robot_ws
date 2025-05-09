@@ -10,6 +10,7 @@ First, clone this repository.
 
 ```bash
 git clone https://github.com/sakkam123/multi_robot_ws
+```
 ### 2. Install Dependencies
 Make sure that ROS 2 Humble is installed on your system. If you haven't already installed it, follow the ROS 2 installation guide.
 You will also need to install the necessary dependencies for the project:
