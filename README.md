@@ -16,7 +16,17 @@ Make sure that ROS 2 Humble is installed on your system. If you haven't already 
 You will also need to install the necessary dependencies for the project:
 ```bash
 sudo apt update
-sudo apt install ros-humble-slam-toolbox
+sudo apt update
+sudo apt install -y \
+  ros-humble-turtlebot3* \
+  ros-humble-slam-toolbox \
+  ros-humble-nav2-bringup 
+```
+Environment Setup:
+```bash
+echo "export TURTLEBOT3_MODEL=waffle" >> ~/.bashrc
+echo "export GAZEBO_MODEL_PATH=\$GAZEBO_MODEL_PATH:/opt/ros/humble/share/turtlebot3_gazebo/models" >> ~/.bashrc
+source ~/.bashrc
 ```
 ### 3. Build the Workspace
 Once the repository is cloned and the dependencies are installed, you need to build the workspace:
