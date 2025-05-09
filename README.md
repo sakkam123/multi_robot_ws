@@ -72,3 +72,25 @@ ros2 launch $(ros2 pkg prefix explore_lite)/share/explore_lite/launch/robot1_exp
 
 # Launch exploration for Robot 2
 ros2 launch $(ros2 pkg prefix explore_lite)/share/explore_lite/launch/robot2_explore.launch.py use_sim_time:=true
+```
+### 7. Merge Maps
+To launch the map merging process, run:
+```bash
+ros2 launch merge_map merge_map_launch.py
+```
+### 8. Save Individual Maps
+To save the map for robot1, run the following command:
+```bash
+cd ~/multi_robot_ws/src/multirobot_map_merge/maps
+ros2 run nav2_map_server map_saver_cli -f map1 --ros-args -r map:=/robot1/map
+```
+To save the map for robot2, run:
+```bash
+ros2 run nav2_map_server map_saver_cli -f map2 --ros-args -r map:=/robot2/map
+```
+### 9. Save Merged Map
+After merging the maps, save the final merged map by running:
+```bash
+cd ~/multi_robot_ws/src/merge_map/resource
+ros2 run nav2_map_server map_saver_cli -f merged_map --ros-args -r map:=/map
+```
