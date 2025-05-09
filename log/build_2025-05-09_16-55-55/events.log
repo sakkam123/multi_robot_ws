@@ -1,0 +1,264 @@
+[0.000000] (-) TimerEvent: {}
+[0.000170] (explore_lite) JobQueued: {'identifier': 'explore_lite', 'dependencies': OrderedDict()}
+[0.000196] (merge_map) JobQueued: {'identifier': 'merge_map', 'dependencies': OrderedDict()}
+[0.000214] (multirobot_map_merge) JobQueued: {'identifier': 'multirobot_map_merge', 'dependencies': OrderedDict()}
+[0.000231] (explore_lite) JobStarted: {'identifier': 'explore_lite'}
+[0.008630] (merge_map) JobStarted: {'identifier': 'merge_map'}
+[0.017298] (multirobot_map_merge) JobStarted: {'identifier': 'multirobot_map_merge'}
+[0.023247] (explore_lite) JobProgress: {'identifier': 'explore_lite', 'progress': 'cmake'}
+[0.024598] (explore_lite) JobProgress: {'identifier': 'explore_lite', 'progress': 'build'}
+[0.025445] (explore_lite) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mariem/multi_robot_ws/build/explore_lite', '--', '-j16', '-l16'], 'cwd': '/home/mariem/multi_robot_ws/build/explore_lite', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mariem'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mariem/multi_robot_ws/install/multirobot_map_merge/lib:/home/mariem/my_ros2_ws/install/openslam_gmapping/lib:/home/mariem/my_ros2_ws/install/multirobot_map_merge/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mariem'), ('OLDPWD', '/home/mariem'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1742'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mariem/multi_robot_ws/install:/home/mariem/test_ws/install:/home/mariem/pcd_ws/install:/home/mariem/my_ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mariem'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mariem'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/home/mariem/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mariem-GF63-Thin-11SC:@/tmp/.ICE-unix/1704,unix/mariem-GF63-Thin-11SC:/tmp/.ICE-unix/1704'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3f1d8f1a_5ef0_4c84_9aa2_4b7a2922de3c'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ONAZ52'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mariem/multi_robot_ws/install/multirobot_map_merge:/home/mariem/multi_robot_ws/install/merge_map:/home/mariem/multi_robot_ws/install/explore_lite:/home/mariem/test_ws/install/articubot_one:/home/mariem/pcd_ws/install/my_robot:/home/mariem/my_ros2_ws/install/slam_gmapping:/home/mariem/my_ros2_ws/install/openslam_gmapping:/home/mariem/my_ros2_ws/install/my_turtlebot_gazebo:/home/mariem/my_ros2_ws/install/multirobot_map_merge:/home/mariem/my_ros2_ws/install/explore_lite:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mariem/multi_robot_ws/build/explore_lite'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mariem/multi_robot_ws/build/merge_map:/home/mariem/multi_robot_ws/install/merge_map/lib/python3.10/site-packages:/home/mariem/my_ros2_ws/build/my_turtlebot_gazebo:/home/mariem/my_ros2_ws/install/my_turtlebot_gazebo/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mariem/multi_robot_ws/install/multirobot_map_merge:/home/mariem/multi_robot_ws/install/explore_lite:/home/mariem/test_ws/install/articubot_one:/home/mariem/pcd_ws/install/my_robot:/home/mariem/my_ros2_ws/install/slam_gmapping:/home/mariem/my_ros2_ws/install/openslam_gmapping:/home/mariem/my_ros2_ws/install/multirobot_map_merge:/home/mariem/my_ros2_ws/install/explore_lite:/home/mariem/multi_robot_ws/install/merge_map:/home/mariem/my_ros2_ws/install/my_turtlebot_gazebo:/opt/ros/humble')]), 'shell': False}
+[0.099480] (-) TimerEvent: {}
+[0.199814] (-) TimerEvent: {}
+[0.279885] (explore_lite) StdoutLine: {'line': b'[ 20%] Built target gtest\n'}
+[0.280915] (explore_lite) StdoutLine: {'line': b'[ 40%] Built target gtest_main\n'}
+[0.281055] (explore_lite) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/explore.dir/src/costmap_client.cpp.o\x1b[0m\n'}
+[0.281177] (explore_lite) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/explore.dir/src/explore.cpp.o\x1b[0m\n'}
+[0.281286] (explore_lite) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/explore.dir/src/frontier_search.cpp.o\x1b[0m\n'}
+[0.281390] (explore_lite) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/test_explore.dir/test/test_explore.cpp.o\x1b[0m\n'}
+[0.281496] (explore_lite) StderrLine: {'line': b'\x1b[01m\x1b[Kcc1plus:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[K/home/mariem/multi_robot_ws/src/explore/test/test_explore.cpp: No such file or directory\n'}
+[0.281711] (explore_lite) StderrLine: {'line': b'compilation terminated.\n'}
+[0.281816] (explore_lite) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/test_explore.dir/build.make:76: CMakeFiles/test_explore.dir/test/test_explore.cpp.o] Error 1\n'}
+[0.281922] (explore_lite) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:184: CMakeFiles/test_explore.dir/all] Error 2\n'}
+[0.282017] (explore_lite) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[0.282282] (multirobot_map_merge) JobProgress: {'identifier': 'multirobot_map_merge', 'progress': 'cmake'}
+[0.283949] (multirobot_map_merge) JobProgress: {'identifier': 'multirobot_map_merge', 'progress': 'build'}
+[0.284886] (multirobot_map_merge) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mariem/multi_robot_ws/build/multirobot_map_merge', '--', '-j16', '-l16'], 'cwd': '/home/mariem/multi_robot_ws/build/multirobot_map_merge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mariem'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mariem/multi_robot_ws/install/multirobot_map_merge/lib:/home/mariem/my_ros2_ws/install/openslam_gmapping/lib:/home/mariem/my_ros2_ws/install/multirobot_map_merge/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mariem'), ('OLDPWD', '/home/mariem'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1742'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mariem/multi_robot_ws/install:/home/mariem/test_ws/install:/home/mariem/pcd_ws/install:/home/mariem/my_ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mariem'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mariem'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/home/mariem/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mariem-GF63-Thin-11SC:@/tmp/.ICE-unix/1704,unix/mariem-GF63-Thin-11SC:/tmp/.ICE-unix/1704'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3f1d8f1a_5ef0_4c84_9aa2_4b7a2922de3c'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ONAZ52'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mariem/multi_robot_ws/install/multirobot_map_merge:/home/mariem/multi_robot_ws/install/merge_map:/home/mariem/multi_robot_ws/install/explore_lite:/home/mariem/test_ws/install/articubot_one:/home/mariem/pcd_ws/install/my_robot:/home/mariem/my_ros2_ws/install/slam_gmapping:/home/mariem/my_ros2_ws/install/openslam_gmapping:/home/mariem/my_ros2_ws/install/my_turtlebot_gazebo:/home/mariem/my_ros2_ws/install/multirobot_map_merge:/home/mariem/my_ros2_ws/install/explore_lite:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mariem/multi_robot_ws/build/multirobot_map_merge'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mariem/multi_robot_ws/build/merge_map:/home/mariem/multi_robot_ws/install/merge_map/lib/python3.10/site-packages:/home/mariem/my_ros2_ws/build/my_turtlebot_gazebo:/home/mariem/my_ros2_ws/install/my_turtlebot_gazebo/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mariem/multi_robot_ws/install/multirobot_map_merge:/home/mariem/multi_robot_ws/install/explore_lite:/home/mariem/test_ws/install/articubot_one:/home/mariem/pcd_ws/install/my_robot:/home/mariem/my_ros2_ws/install/slam_gmapping:/home/mariem/my_ros2_ws/install/openslam_gmapping:/home/mariem/my_ros2_ws/install/multirobot_map_merge:/home/mariem/my_ros2_ws/install/explore_lite:/home/mariem/multi_robot_ws/install/merge_map:/home/mariem/my_ros2_ws/install/my_turtlebot_gazebo:/opt/ros/humble')]), 'shell': False}
+[0.299903] (-) TimerEvent: {}
+[0.322482] (multirobot_map_merge) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.400018] (-) TimerEvent: {}
+[0.466957] (multirobot_map_merge) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.482986] (multirobot_map_merge) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.500115] (-) TimerEvent: {}
+[0.523961] (multirobot_map_merge) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.527867] (multirobot_map_merge) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.537915] (multirobot_map_merge) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.553707] (multirobot_map_merge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.571079] (multirobot_map_merge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.600206] (-) TimerEvent: {}
+[0.619471] (multirobot_map_merge) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.623056] (multirobot_map_merge) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.700326] (-) TimerEvent: {}
+[0.750005] (multirobot_map_merge) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.773989] (merge_map) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/mariem/multi_robot_ws/build/merge_map/build', '--no-deps', 'symlink_data'], 'cwd': '/home/mariem/multi_robot_ws/build/merge_map', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mariem', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/mariem/multi_robot_ws/install/multirobot_map_merge/lib:/home/mariem/my_ros2_ws/install/openslam_gmapping/lib:/home/mariem/my_ros2_ws/install/multirobot_map_merge/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/mariem', 'OLDPWD': '/home/mariem', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1742', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/mariem/multi_robot_ws/install:/home/mariem/test_ws/install:/home/mariem/pcd_ws/install:/home/mariem/my_ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'mariem', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'mariem', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo-11/models:/home/mariem/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/models', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/mariem-GF63-Thin-11SC:@/tmp/.ICE-unix/1704,unix/mariem-GF63-Thin-11SC:/tmp/.ICE-unix/1704', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/3f1d8f1a_5ef0_4c84_9aa2_4b7a2922de3c', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.ONAZ52', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.99', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/mariem/multi_robot_ws/install/multirobot_map_merge:/home/mariem/multi_robot_ws/install/merge_map:/home/mariem/multi_robot_ws/install/explore_lite:/home/mariem/test_ws/install/articubot_one:/home/mariem/pcd_ws/install/my_robot:/home/mariem/my_ros2_ws/install/slam_gmapping:/home/mariem/my_ros2_ws/install/openslam_gmapping:/home/mariem/my_ros2_ws/install/my_turtlebot_gazebo:/home/mariem/my_ros2_ws/install/multirobot_map_merge:/home/mariem/my_ros2_ws/install/explore_lite:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/mariem/multi_robot_ws/build/merge_map', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mariem/multi_robot_ws/build/merge_map/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mariem/multi_robot_ws/install/merge_map/lib/python3.10/site-packages:/home/mariem/multi_robot_ws/build/merge_map:/home/mariem/multi_robot_ws/install/merge_map/lib/python3.10/site-packages:/home/mariem/my_ros2_ws/build/my_turtlebot_gazebo:/home/mariem/my_ros2_ws/install/my_turtlebot_gazebo/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/mariem/multi_robot_ws/install/multirobot_map_merge:/home/mariem/multi_robot_ws/install/explore_lite:/home/mariem/test_ws/install/articubot_one:/home/mariem/pcd_ws/install/my_robot:/home/mariem/my_ros2_ws/install/slam_gmapping:/home/mariem/my_ros2_ws/install/openslam_gmapping:/home/mariem/my_ros2_ws/install/multirobot_map_merge:/home/mariem/my_ros2_ws/install/explore_lite'}, 'shell': False}
+[0.800437] (-) TimerEvent: {}
+[0.812676] (multirobot_map_merge) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.827494] (multirobot_map_merge) StdoutLine: {'line': b'-- Found image_geometry: 3.2.1 (/opt/ros/humble/share/image_geometry/cmake)\n'}
+[0.860950] (multirobot_map_merge) StdoutLine: {'line': b'-- Found map_msgs: 2.1.0 (/opt/ros/humble/share/map_msgs/cmake)\n'}
+[0.900554] (-) TimerEvent: {}
+[0.904139] (multirobot_map_merge) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[0.909213] (multirobot_map_merge) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[0.911026] (multirobot_map_merge) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.000668] (-) TimerEvent: {}
+[1.055476] (merge_map) StdoutLine: {'line': b'running develop\n'}
+[1.100778] (-) TimerEvent: {}
+[1.126126] (multirobot_map_merge) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.200916] (-) TimerEvent: {}
+[1.206132] (multirobot_map_merge) StdoutLine: {'line': b'-- Generating done\n'}
+[1.214921] (multirobot_map_merge) StdoutLine: {'line': b'-- Build files have been written to: /home/mariem/multi_robot_ws/build/multirobot_map_merge\n'}
+[1.234177] (merge_map) StdoutLine: {'line': b'running egg_info\n'}
+[1.234552] (merge_map) StdoutLine: {'line': b'writing merge_map.egg-info/PKG-INFO\n'}
+[1.234723] (merge_map) StdoutLine: {'line': b'writing dependency_links to merge_map.egg-info/dependency_links.txt\n'}
+[1.234902] (merge_map) StdoutLine: {'line': b'writing entry points to merge_map.egg-info/entry_points.txt\n'}
+[1.235020] (merge_map) StdoutLine: {'line': b'writing requirements to merge_map.egg-info/requires.txt\n'}
+[1.235152] (merge_map) StdoutLine: {'line': b'writing top-level names to merge_map.egg-info/top_level.txt\n'}
+[1.236805] (merge_map) StdoutLine: {'line': b"reading manifest file 'merge_map.egg-info/SOURCES.txt'\n"}
+[1.238263] (merge_map) StdoutLine: {'line': b"writing manifest file 'merge_map.egg-info/SOURCES.txt'\n"}
+[1.239645] (merge_map) StdoutLine: {'line': b'running build_ext\n'}
+[1.239852] (merge_map) StdoutLine: {'line': b'Creating /home/mariem/multi_robot_ws/install/merge_map/lib/python3.10/site-packages/merge-map.egg-link (link to .)\n'}
+[1.240735] (merge_map) StdoutLine: {'line': b'Installing merge_map script to /home/mariem/multi_robot_ws/install/merge_map/lib/merge_map\n'}
+[1.240949] (merge_map) StdoutLine: {'line': b'\n'}
+[1.241063] (merge_map) StdoutLine: {'line': b'Installed /home/mariem/multi_robot_ws/build/merge_map\n'}
+[1.241184] (merge_map) StdoutLine: {'line': b'running symlink_data\n'}
+[1.247541] (multirobot_map_merge) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target combine_grids\x1b[0m\n'}
+[1.268532] (multirobot_map_merge) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/combine_grids.dir/src/combine_grids/grid_warper.cpp.o\x1b[0m\n'}
+[1.268819] (multirobot_map_merge) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/combine_grids.dir/src/combine_grids/grid_compositor.cpp.o\x1b[0m\n'}
+[1.269833] (multirobot_map_merge) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/combine_grids.dir/src/combine_grids/merging_pipeline.cpp.o\x1b[0m\n'}
+[1.270928] (merge_map) CommandEnded: {'returncode': 0}
+[1.292032] (merge_map) JobEnded: {'identifier': 'merge_map', 'rc': 0}
+[1.301024] (-) TimerEvent: {}
+[1.401491] (-) TimerEvent: {}
+[1.501969] (-) TimerEvent: {}
+[1.602608] (-) TimerEvent: {}
+[1.703117] (-) TimerEvent: {}
+[1.803690] (-) TimerEvent: {}
+[1.904210] (-) TimerEvent: {}
+[2.004874] (-) TimerEvent: {}
+[2.105367] (-) TimerEvent: {}
+[2.205935] (-) TimerEvent: {}
+[2.306489] (-) TimerEvent: {}
+[2.407059] (-) TimerEvent: {}
+[2.507548] (-) TimerEvent: {}
+[2.608016] (-) TimerEvent: {}
+[2.708602] (-) TimerEvent: {}
+[2.809148] (-) TimerEvent: {}
+[2.909664] (-) TimerEvent: {}
+[3.010286] (-) TimerEvent: {}
+[3.110816] (-) TimerEvent: {}
+[3.211284] (-) TimerEvent: {}
+[3.311845] (-) TimerEvent: {}
+[3.412432] (-) TimerEvent: {}
+[3.513012] (-) TimerEvent: {}
+[3.613607] (-) TimerEvent: {}
+[3.714080] (-) TimerEvent: {}
+[3.814643] (-) TimerEvent: {}
+[3.915156] (-) TimerEvent: {}
+[4.015699] (-) TimerEvent: {}
+[4.116193] (-) TimerEvent: {}
+[4.216592] (-) TimerEvent: {}
+[4.317076] (-) TimerEvent: {}
+[4.417676] (-) TimerEvent: {}
+[4.518134] (-) TimerEvent: {}
+[4.618600] (-) TimerEvent: {}
+[4.719107] (-) TimerEvent: {}
+[4.819587] (-) TimerEvent: {}
+[4.920202] (-) TimerEvent: {}
+[5.020770] (-) TimerEvent: {}
+[5.076780] (multirobot_map_merge) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX static library libcombine_grids.a\x1b[0m\n'}
+[5.120924] (-) TimerEvent: {}
+[5.121235] (multirobot_map_merge) StdoutLine: {'line': b'[ 66%] Built target combine_grids\n'}
+[5.134865] (multirobot_map_merge) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target map_merge\x1b[0m\n'}
+[5.189757] (multirobot_map_merge) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/map_merge.dir/src/map_merge.cpp.o\x1b[0m\n'}
+[5.221056] (-) TimerEvent: {}
+[5.321478] (-) TimerEvent: {}
+[5.421966] (-) TimerEvent: {}
+[5.522315] (-) TimerEvent: {}
+[5.622675] (-) TimerEvent: {}
+[5.722998] (-) TimerEvent: {}
+[5.823341] (-) TimerEvent: {}
+[5.923660] (-) TimerEvent: {}
+[6.024180] (-) TimerEvent: {}
+[6.124860] (-) TimerEvent: {}
+[6.182260] (multirobot_map_merge) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/mariem/multi_robot_ws/src/multirobot_map_merge/src/map_merge.cpp:6\x1b[m\x1b[K:\n'}
+[6.182504] (multirobot_map_merge) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.182571] (multirobot_map_merge) StderrLine: {'line': b'   35 | #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead\n'}
+[6.182623] (multirobot_map_merge) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[6.225053] (-) TimerEvent: {}
+[6.325525] (-) TimerEvent: {}
+[6.426047] (-) TimerEvent: {}
+[6.526525] (-) TimerEvent: {}
+[6.627104] (-) TimerEvent: {}
+[6.727654] (-) TimerEvent: {}
+[6.828230] (-) TimerEvent: {}
+[6.928695] (-) TimerEvent: {}
+[7.029145] (-) TimerEvent: {}
+[7.129677] (-) TimerEvent: {}
+[7.230163] (-) TimerEvent: {}
+[7.330625] (-) TimerEvent: {}
+[7.430956] (-) TimerEvent: {}
+[7.531373] (-) TimerEvent: {}
+[7.631782] (-) TimerEvent: {}
+[7.732221] (-) TimerEvent: {}
+[7.832611] (-) TimerEvent: {}
+[7.932917] (-) TimerEvent: {}
+[8.033241] (-) TimerEvent: {}
+[8.133559] (-) TimerEvent: {}
+[8.234010] (-) TimerEvent: {}
+[8.334429] (-) TimerEvent: {}
+[8.434933] (-) TimerEvent: {}
+[8.535499] (-) TimerEvent: {}
+[8.636032] (-) TimerEvent: {}
+[8.736588] (-) TimerEvent: {}
+[8.836999] (-) TimerEvent: {}
+[8.937359] (-) TimerEvent: {}
+[9.037739] (-) TimerEvent: {}
+[9.138185] (-) TimerEvent: {}
+[9.238540] (-) TimerEvent: {}
+[9.339015] (-) TimerEvent: {}
+[9.439605] (-) TimerEvent: {}
+[9.540221] (-) TimerEvent: {}
+[9.640750] (-) TimerEvent: {}
+[9.741146] (-) TimerEvent: {}
+[9.841710] (-) TimerEvent: {}
+[9.942222] (-) TimerEvent: {}
+[10.042727] (-) TimerEvent: {}
+[10.143262] (-) TimerEvent: {}
+[10.243823] (-) TimerEvent: {}
+[10.344271] (-) TimerEvent: {}
+[10.444601] (-) TimerEvent: {}
+[10.544948] (-) TimerEvent: {}
+[10.645297] (-) TimerEvent: {}
+[10.745722] (-) TimerEvent: {}
+[10.846287] (-) TimerEvent: {}
+[10.946676] (-) TimerEvent: {}
+[11.047032] (-) TimerEvent: {}
+[11.147381] (-) TimerEvent: {}
+[11.247766] (-) TimerEvent: {}
+[11.348152] (-) TimerEvent: {}
+[11.448616] (-) TimerEvent: {}
+[11.549065] (-) TimerEvent: {}
+[11.649582] (-) TimerEvent: {}
+[11.749974] (-) TimerEvent: {}
+[11.850468] (-) TimerEvent: {}
+[11.950886] (-) TimerEvent: {}
+[12.051354] (-) TimerEvent: {}
+[12.151707] (-) TimerEvent: {}
+[12.252057] (-) TimerEvent: {}
+[12.352393] (-) TimerEvent: {}
+[12.452750] (-) TimerEvent: {}
+[12.524745] (explore_lite) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX executable explore\x1b[0m\n'}
+[12.552877] (-) TimerEvent: {}
+[12.653317] (-) TimerEvent: {}
+[12.753675] (-) TimerEvent: {}
+[12.854030] (-) TimerEvent: {}
+[12.954520] (-) TimerEvent: {}
+[13.054911] (-) TimerEvent: {}
+[13.155448] (-) TimerEvent: {}
+[13.255956] (-) TimerEvent: {}
+[13.356431] (-) TimerEvent: {}
+[13.456764] (-) TimerEvent: {}
+[13.557195] (-) TimerEvent: {}
+[13.657689] (-) TimerEvent: {}
+[13.758209] (-) TimerEvent: {}
+[13.858658] (-) TimerEvent: {}
+[13.959109] (-) TimerEvent: {}
+[14.059562] (-) TimerEvent: {}
+[14.128134] (explore_lite) StdoutLine: {'line': b'[ 90%] Built target explore\n'}
+[14.129553] (explore_lite) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[14.132277] (explore_lite) CommandEnded: {'returncode': 2}
+[14.144998] (explore_lite) JobEnded: {'identifier': 'explore_lite', 'rc': 2}
+[14.159672] (-) TimerEvent: {}
+[14.260134] (-) TimerEvent: {}
+[14.360625] (-) TimerEvent: {}
+[14.461054] (-) TimerEvent: {}
+[14.561598] (-) TimerEvent: {}
+[14.662004] (-) TimerEvent: {}
+[14.762496] (-) TimerEvent: {}
+[14.862841] (-) TimerEvent: {}
+[14.963296] (-) TimerEvent: {}
+[15.063671] (-) TimerEvent: {}
+[15.164107] (-) TimerEvent: {}
+[15.264660] (-) TimerEvent: {}
+[15.365047] (-) TimerEvent: {}
+[15.465565] (-) TimerEvent: {}
+[15.565898] (-) TimerEvent: {}
+[15.666324] (-) TimerEvent: {}
+[15.766758] (-) TimerEvent: {}
+[15.867162] (-) TimerEvent: {}
+[15.967559] (-) TimerEvent: {}
+[16.068061] (-) TimerEvent: {}
+[16.168608] (-) TimerEvent: {}
+[16.269178] (-) TimerEvent: {}
+[16.369700] (-) TimerEvent: {}
+[16.470213] (-) TimerEvent: {}
+[16.570715] (-) TimerEvent: {}
+[16.671203] (-) TimerEvent: {}
+[16.771593] (-) TimerEvent: {}
+[16.872057] (-) TimerEvent: {}
+[16.972639] (-) TimerEvent: {}
+[17.073190] (-) TimerEvent: {}
+[17.173769] (-) TimerEvent: {}
+[17.274137] (-) TimerEvent: {}
+[17.374468] (-) TimerEvent: {}
+[17.380957] (multirobot_map_merge) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable map_merge\x1b[0m\n'}
+[17.474650] (-) TimerEvent: {}
+[17.575070] (-) TimerEvent: {}
+[17.675610] (-) TimerEvent: {}
+[17.776029] (-) TimerEvent: {}
+[17.876530] (-) TimerEvent: {}
+[17.977054] (-) TimerEvent: {}
+[18.077527] (-) TimerEvent: {}
+[18.178045] (-) TimerEvent: {}
+[18.242037] (multirobot_map_merge) StdoutLine: {'line': b'[100%] Built target map_merge\n'}
+[18.250670] (multirobot_map_merge) JobEnded: {'identifier': 'multirobot_map_merge', 'rc': 'SIGINT'}
+[18.261365] (-) EventReactorShutdown: {}

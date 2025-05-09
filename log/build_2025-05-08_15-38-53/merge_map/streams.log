@@ -1,0 +1,17 @@
+[0.742s] Invoking command in '/home/mariem/multi_robot_ws/build/merge_map': PYTHONPATH=/home/mariem/multi_robot_ws/build/merge_map/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mariem/multi_robot_ws/install/merge_map/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mariem/multi_robot_ws/build/merge_map/build --no-deps symlink_data
+[1.015s] running develop
+[1.214s] running egg_info
+[1.214s] writing merge_map.egg-info/PKG-INFO
+[1.214s] writing dependency_links to merge_map.egg-info/dependency_links.txt
+[1.215s] writing entry points to merge_map.egg-info/entry_points.txt
+[1.215s] writing requirements to merge_map.egg-info/requires.txt
+[1.215s] writing top-level names to merge_map.egg-info/top_level.txt
+[1.218s] reading manifest file 'merge_map.egg-info/SOURCES.txt'
+[1.220s] writing manifest file 'merge_map.egg-info/SOURCES.txt'
+[1.222s] running build_ext
+[1.222s] Creating /home/mariem/multi_robot_ws/install/merge_map/lib/python3.10/site-packages/merge-map.egg-link (link to .)
+[1.223s] Installing merge_map script to /home/mariem/multi_robot_ws/install/merge_map/lib/merge_map
+[1.223s] 
+[1.223s] Installed /home/mariem/multi_robot_ws/build/merge_map
+[1.223s] running symlink_data
+[1.257s] Invoked command in '/home/mariem/multi_robot_ws/build/merge_map' returned '0': PYTHONPATH=/home/mariem/multi_robot_ws/build/merge_map/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mariem/multi_robot_ws/install/merge_map/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mariem/multi_robot_ws/build/merge_map/build --no-deps symlink_data

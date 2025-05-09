@@ -1,0 +1,14 @@
+[ 20%] Built target gtest
+[ 40%] Built target gtest_main
+[ 50%] [32mBuilding CXX object CMakeFiles/explore.dir/src/costmap_client.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/explore.dir/src/explore.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/explore.dir/src/frontier_search.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/test_explore.dir/test/test_explore.cpp.o[0m
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/mariem/multi_robot_ws/src/explore/test/test_explore.cpp: No such file or directory
+compilation terminated.
+gmake[2]: *** [CMakeFiles/test_explore.dir/build.make:76: CMakeFiles/test_explore.dir/test/test_explore.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:184: CMakeFiles/test_explore.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 90%] [32m[1mLinking CXX executable explore[0m
+[ 90%] Built target explore
+gmake: *** [Makefile:146: all] Error 2

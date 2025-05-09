@@ -1,0 +1,88 @@
+[0.196s] Invoking command in '/home/mariem/multi_robot_ws/build/multirobot_map_merge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mariem/multi_robot_ws/install/merge_map:/home/mariem/my_ros2_ws/install/my_turtlebot_gazebo:/opt/ros/humble /usr/bin/cmake /home/mariem/multi_robot_ws/src/multirobot_map_merge -DCMAKE_INSTALL_PREFIX=/home/mariem/multi_robot_ws/install/multirobot_map_merge
+[0.206s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.307s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.313s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.336s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.338s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.343s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.350s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.360s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.386s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.387s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.466s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.502s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.512s] -- Found image_geometry: 3.2.1 (/opt/ros/humble/share/image_geometry/cmake)
+[0.540s] -- Found map_msgs: 2.1.0 (/opt/ros/humble/share/map_msgs/cmake)
+[0.572s] -- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.576s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.577s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.671s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.733s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[0.736s] Checking MD5 sum of /home/mariem/multi_robot_ws/build/multirobot_map_merge/map00.pgm
+[0.745s] /home/mariem/multi_robot_ws/build/multirobot_map_merge/map00.pgm: OK
+[0.747s] Checking MD5 sum of /home/mariem/multi_robot_ws/build/multirobot_map_merge/map05.pgm
+[0.756s] /home/mariem/multi_robot_ws/build/multirobot_map_merge/map05.pgm: OK
+[0.758s] Checking MD5 sum of /home/mariem/multi_robot_ws/build/multirobot_map_merge/2011-08-09-12-22-52.pgm
+[0.789s] /home/mariem/multi_robot_ws/build/multirobot_map_merge/2011-08-09-12-22-52.pgm: OK
+[0.791s] Checking MD5 sum of /home/mariem/multi_robot_ws/build/multirobot_map_merge/2012-01-28-11-12-01.pgm
+[0.822s] /home/mariem/multi_robot_ws/build/multirobot_map_merge/2012-01-28-11-12-01.pgm: OK
+[0.823s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.833s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.833s] -- Configured cppcheck include dirs: /home/mariem/multi_robot_ws/src/multirobot_map_merge/include;$<BUILD_INTERFACE:/home/mariem/multi_robot_ws/src/multirobot_map_merge/include>
+[0.833s] -- Configured cppcheck exclude dirs and/or files: 
+[0.833s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.834s] -- Added test 'lint_cmake' to check CMake code style
+[0.834s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.835s] -- Added test 'uncrustify' to check C / C++ code style
+[0.835s] -- Configured uncrustify additional arguments: 
+[0.836s] -- Added test 'xmllint' to check XML markup files
+[0.838s] -- Configuring done
+[0.902s] -- Generating done
+[0.912s] -- Build files have been written to: /home/mariem/multi_robot_ws/build/multirobot_map_merge
+[0.921s] Invoked command in '/home/mariem/multi_robot_ws/build/multirobot_map_merge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mariem/multi_robot_ws/install/merge_map:/home/mariem/my_ros2_ws/install/my_turtlebot_gazebo:/opt/ros/humble /usr/bin/cmake /home/mariem/multi_robot_ws/src/multirobot_map_merge -DCMAKE_INSTALL_PREFIX=/home/mariem/multi_robot_ws/install/multirobot_map_merge
+[0.923s] Invoking command in '/home/mariem/multi_robot_ws/build/multirobot_map_merge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mariem/multi_robot_ws/install/merge_map:/home/mariem/my_ros2_ws/install/my_turtlebot_gazebo:/opt/ros/humble /usr/bin/cmake --build /home/mariem/multi_robot_ws/build/multirobot_map_merge -- -j16 -l16
+[0.960s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.960s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.961s] [35m[1mConsolidate compiler generated dependencies of target combine_grids[0m
+[0.985s] [ 16%] Built target gtest_main
+[0.985s] [ 33%] Built target gtest
+[0.996s] [ 66%] Built target combine_grids
+[1.008s] [35m[1mConsolidate compiler generated dependencies of target test_merging_pipeline[0m
+[1.008s] [35m[1mConsolidate compiler generated dependencies of target map_merge[0m
+[1.025s] [ 83%] Built target test_merging_pipeline
+[1.054s] [100%] Built target map_merge
+[1.073s] Invoked command in '/home/mariem/multi_robot_ws/build/multirobot_map_merge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mariem/multi_robot_ws/install/merge_map:/home/mariem/my_ros2_ws/install/my_turtlebot_gazebo:/opt/ros/humble /usr/bin/cmake --build /home/mariem/multi_robot_ws/build/multirobot_map_merge -- -j16 -l16
+[1.075s] Invoking command in '/home/mariem/multi_robot_ws/build/multirobot_map_merge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mariem/multi_robot_ws/install/merge_map:/home/mariem/my_ros2_ws/install/my_turtlebot_gazebo:/opt/ros/humble /usr/bin/cmake --install /home/mariem/multi_robot_ws/build/multirobot_map_merge
+[1.080s] -- Install configuration: ""
+[1.080s] -- Execute custom install script
+[1.081s] -- Up-to-date symlink: /home/mariem/multi_robot_ws/install/multirobot_map_merge/include/map_merge//map_merge.h
+[1.081s] -- Up-to-date symlink: /home/mariem/multi_robot_ws/install/multirobot_map_merge/include/map_merge//ros1_names.hpp
+[1.082s] -- Up-to-date symlink: /home/mariem/multi_robot_ws/install/multirobot_map_merge/share/multirobot_map_merge/launch/tb3_simulation/bringup_launch.py
+[1.082s] -- Up-to-date symlink: /home/mariem/multi_robot_ws/install/multirobot_map_merge/share/multirobot_map_merge/launch/tb3_simulation/config/nav2_multirobot_params_1.yaml
+[1.082s] -- Up-to-date symlink: /home/mariem/multi_robot_ws/install/multirobot_map_merge/share/multirobot_map_merge/launch/tb3_simulation/config/nav2_multirobot_params_2.yaml
+[1.082s] -- Up-to-date symlink: /home/mariem/multi_robot_ws/install/multirobot_map_merge/share/multirobot_map_merge/launch/tb3_simulation/multi_tb3_simulation_launch.py
+[1.083s] -- Up-to-date symlink: /home/mariem/multi_robot_ws/install/multirobot_map_merge/share/multirobot_map_merge/launch/tb3_simulation/slam_toolbox.py
+[1.083s] -- Up-to-date symlink: /home/mariem/multi_robot_ws/install/multirobot_map_merge/share/multirobot_map_merge/launch/tb3_simulation/tb3_simulation_launch.py
+[1.083s] -- Up-to-date symlink: /home/mariem/multi_robot_ws/install/multirobot_map_merge/share/multirobot_map_merge/launch/tb3_simulation/worlds/world_only.model
+[1.083s] -- Up-to-date symlink: /home/mariem/multi_robot_ws/install/multirobot_map_merge/lib/multirobot_map_merge/map_merge
+[1.084s] -- Up-to-date symlink: /home/mariem/multi_robot_ws/install/multirobot_map_merge/share/multirobot_map_merge/environment/library_path.sh
+[1.084s] -- Up-to-date symlink: /home/mariem/multi_robot_ws/install/multirobot_map_merge/share/multirobot_map_merge/environment/library_path.dsv
+[1.084s] -- Up-to-date symlink: /home/mariem/multi_robot_ws/install/multirobot_map_merge/share/ament_index/resource_index/package_run_dependencies/multirobot_map_merge
+[1.084s] -- Up-to-date symlink: /home/mariem/multi_robot_ws/install/multirobot_map_merge/share/ament_index/resource_index/parent_prefix_path/multirobot_map_merge
+[1.084s] -- Up-to-date symlink: /home/mariem/multi_robot_ws/install/multirobot_map_merge/share/multirobot_map_merge/environment/ament_prefix_path.sh
+[1.085s] -- Up-to-date symlink: /home/mariem/multi_robot_ws/install/multirobot_map_merge/share/multirobot_map_merge/environment/ament_prefix_path.dsv
+[1.085s] -- Up-to-date symlink: /home/mariem/multi_robot_ws/install/multirobot_map_merge/share/multirobot_map_merge/environment/path.sh
+[1.085s] -- Up-to-date symlink: /home/mariem/multi_robot_ws/install/multirobot_map_merge/share/multirobot_map_merge/environment/path.dsv
+[1.085s] -- Up-to-date symlink: /home/mariem/multi_robot_ws/install/multirobot_map_merge/share/multirobot_map_merge/local_setup.bash
+[1.085s] -- Up-to-date symlink: /home/mariem/multi_robot_ws/install/multirobot_map_merge/share/multirobot_map_merge/local_setup.sh
+[1.086s] -- Up-to-date symlink: /home/mariem/multi_robot_ws/install/multirobot_map_merge/share/multirobot_map_merge/local_setup.zsh
+[1.086s] -- Up-to-date symlink: /home/mariem/multi_robot_ws/install/multirobot_map_merge/share/multirobot_map_merge/local_setup.dsv
+[1.086s] -- Symlinking: /home/mariem/multi_robot_ws/install/multirobot_map_merge/share/multirobot_map_merge/package.dsv
+[1.093s] -- Up-to-date symlink: /home/mariem/multi_robot_ws/install/multirobot_map_merge/share/ament_index/resource_index/packages/multirobot_map_merge
+[1.093s] -- Up-to-date symlink: /home/mariem/multi_robot_ws/install/multirobot_map_merge/share/multirobot_map_merge/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.093s] -- Up-to-date symlink: /home/mariem/multi_robot_ws/install/multirobot_map_merge/share/multirobot_map_merge/cmake/ament_cmake_export_libraries-extras.cmake
+[1.094s] -- Up-to-date symlink: /home/mariem/multi_robot_ws/install/multirobot_map_merge/share/multirobot_map_merge/cmake/multirobot_map_mergeConfig.cmake
+[1.094s] -- Up-to-date symlink: /home/mariem/multi_robot_ws/install/multirobot_map_merge/share/multirobot_map_merge/cmake/multirobot_map_mergeConfig-version.cmake
+[1.094s] -- Up-to-date symlink: /home/mariem/multi_robot_ws/install/multirobot_map_merge/share/multirobot_map_merge/package.xml
+[1.094s] -- Up-to-date: /home/mariem/multi_robot_ws/install/multirobot_map_merge/lib/libcombine_grids.a
+[1.095s] Invoked command in '/home/mariem/multi_robot_ws/build/multirobot_map_merge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mariem/multi_robot_ws/install/merge_map:/home/mariem/my_ros2_ws/install/my_turtlebot_gazebo:/opt/ros/humble /usr/bin/cmake --install /home/mariem/multi_robot_ws/build/multirobot_map_merge

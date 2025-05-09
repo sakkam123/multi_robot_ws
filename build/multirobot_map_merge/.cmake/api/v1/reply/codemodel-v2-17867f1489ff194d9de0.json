@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-c0056d976489d386c6be.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "multirobot_map_merge",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "combine_grids::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-combine_grids-313ae87916ce099d7bb9.json",
+					"name" : "combine_grids",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "map_merge::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-map_merge-379adf1ba3aae769dddd.json",
+					"name" : "map_merge",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "multirobot_map_merge_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-multirobot_map_merge_uninstall-5e333cb1af080ca91092.json",
+					"name" : "multirobot_map_merge_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-a8ea2f223c85fda2f702.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/mariem/multi_robot_ws/build/multirobot_map_merge",
+		"source" : "/home/mariem/multi_robot_ws/src/multirobot_map_merge"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

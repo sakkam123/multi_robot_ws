@@ -1,0 +1,267 @@
+[0.077s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.077s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x75b3f3261db0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x75b3f336ed10>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x75b3f336ed10>>, mixin_verb=('build',))
+[0.202s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.202s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.202s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.202s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.202s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.202s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.202s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mariem/multi_robot_ws'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/explore) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/explore) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/explore) by extension 'ignore_ament_install'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/explore) by extensions ['colcon_pkg']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/explore) by extension 'colcon_pkg'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/explore) by extensions ['colcon_meta']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/explore) by extension 'colcon_meta'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/explore) by extensions ['ros']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/explore) by extension 'ros'
+[0.214s] DEBUG:colcon.colcon_core.package_identification:Package 'src/explore' with type 'ros.ament_cmake' and name 'explore_lite'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/merge_map) by extensions ['ignore', 'ignore_ament_install']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/merge_map) by extension 'ignore'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/merge_map) by extension 'ignore_ament_install'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/merge_map) by extensions ['colcon_pkg']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/merge_map) by extension 'colcon_pkg'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/merge_map) by extensions ['colcon_meta']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/merge_map) by extension 'colcon_meta'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/merge_map) by extensions ['ros']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/merge_map) by extension 'ros'
+[0.215s] DEBUG:colcon.colcon_core.package_identification:Package 'src/merge_map' with type 'ros.ament_python' and name 'merge_map'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/multirobot_map_merge) by extensions ['ignore', 'ignore_ament_install']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/multirobot_map_merge) by extension 'ignore'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/multirobot_map_merge) by extension 'ignore_ament_install'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/multirobot_map_merge) by extensions ['colcon_pkg']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/multirobot_map_merge) by extension 'colcon_pkg'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/multirobot_map_merge) by extensions ['colcon_meta']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/multirobot_map_merge) by extension 'colcon_meta'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/multirobot_map_merge) by extensions ['ros']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/multirobot_map_merge) by extension 'ros'
+[0.216s] DEBUG:colcon.colcon_core.package_identification:Package 'src/multirobot_map_merge' with type 'ros.ament_cmake' and name 'multirobot_map_merge'
+[0.216s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.216s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.216s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.216s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.216s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.238s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.238s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.239s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/mariem/multi_robot_ws/install/multirobot_map_merge' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.239s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/mariem/multi_robot_ws/install/merge_map' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.239s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/mariem/multi_robot_ws/install/explore_lite' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.239s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/mariem/multi_robot_ws/install/multirobot_map_merge' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.239s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/mariem/multi_robot_ws/install/explore_lite' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.239s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/mariem/multi_robot_ws/install
+[0.240s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/mariem/test_ws/install
+[0.240s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/mariem/pcd_ws/install
+[0.240s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/mariem/my_ros2_ws/install
+[0.241s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 398 installed packages in /opt/ros/humble
+[0.243s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'cmake_args' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'cmake_target' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'cmake_clean_cache' from command line to 'False'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'cmake_clean_first' from command line to 'False'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'cmake_force_configure' from command line to 'False'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'ament_cmake_args' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'catkin_cmake_args' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.281s] DEBUG:colcon.colcon_core.verb:Building package 'explore_lite' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mariem/multi_robot_ws/build/explore_lite', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mariem/multi_robot_ws/install/explore_lite', 'merge_install': False, 'path': '/home/mariem/multi_robot_ws/src/explore', 'symlink_install': False, 'test_result_base': None}
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'merge_map' build argument 'cmake_args' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'merge_map' build argument 'cmake_target' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'merge_map' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'merge_map' build argument 'cmake_clean_cache' from command line to 'False'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'merge_map' build argument 'cmake_clean_first' from command line to 'False'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'merge_map' build argument 'cmake_force_configure' from command line to 'False'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'merge_map' build argument 'ament_cmake_args' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'merge_map' build argument 'catkin_cmake_args' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'merge_map' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.281s] DEBUG:colcon.colcon_core.verb:Building package 'merge_map' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mariem/multi_robot_ws/build/merge_map', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mariem/multi_robot_ws/install/merge_map', 'merge_install': False, 'path': '/home/mariem/multi_robot_ws/src/merge_map', 'symlink_install': False, 'test_result_base': None}
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'multirobot_map_merge' build argument 'cmake_args' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'multirobot_map_merge' build argument 'cmake_target' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'multirobot_map_merge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'multirobot_map_merge' build argument 'cmake_clean_cache' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'multirobot_map_merge' build argument 'cmake_clean_first' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'multirobot_map_merge' build argument 'cmake_force_configure' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'multirobot_map_merge' build argument 'ament_cmake_args' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'multirobot_map_merge' build argument 'catkin_cmake_args' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'multirobot_map_merge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.282s] DEBUG:colcon.colcon_core.verb:Building package 'multirobot_map_merge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mariem/multi_robot_ws/build/multirobot_map_merge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mariem/multi_robot_ws/install/multirobot_map_merge', 'merge_install': False, 'path': '/home/mariem/multi_robot_ws/src/multirobot_map_merge', 'symlink_install': False, 'test_result_base': None}
+[0.282s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.283s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.283s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mariem/multi_robot_ws/src/explore' with build type 'ament_cmake'
+[0.283s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mariem/multi_robot_ws/src/explore'
+[0.285s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.285s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.285s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.289s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mariem/multi_robot_ws/src/merge_map' with build type 'ament_python'
+[0.289s] Level 1:colcon.colcon_core.shell:create_environment_hook('merge_map', 'ament_prefix_path')
+[0.289s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mariem/multi_robot_ws/install/merge_map/share/merge_map/hook/ament_prefix_path.ps1'
+[0.290s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mariem/multi_robot_ws/install/merge_map/share/merge_map/hook/ament_prefix_path.dsv'
+[0.290s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mariem/multi_robot_ws/install/merge_map/share/merge_map/hook/ament_prefix_path.sh'
+[0.291s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.291s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.294s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mariem/multi_robot_ws/src/multirobot_map_merge' with build type 'ament_cmake'
+[0.294s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mariem/multi_robot_ws/src/multirobot_map_merge'
+[0.294s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.294s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.301s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mariem/multi_robot_ws/build/explore_lite': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mariem/my_ros2_ws/install/my_turtlebot_gazebo:/home/mariem/multi_robot_ws/install/merge_map:/opt/ros/humble /usr/bin/cmake /home/mariem/multi_robot_ws/src/explore -DCMAKE_INSTALL_PREFIX=/home/mariem/multi_robot_ws/install/explore_lite
+[0.489s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mariem/multi_robot_ws/src/merge_map'
+[0.489s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.489s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.495s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mariem/multi_robot_ws/build/multirobot_map_merge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mariem/my_ros2_ws/install/my_turtlebot_gazebo:/home/mariem/multi_robot_ws/install/merge_map:/opt/ros/humble /usr/bin/cmake /home/mariem/multi_robot_ws/src/multirobot_map_merge -DCMAKE_INSTALL_PREFIX=/home/mariem/multi_robot_ws/install/multirobot_map_merge
+[0.775s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mariem/multi_robot_ws/src/merge_map': PYTHONPATH=/home/mariem/multi_robot_ws/build/merge_map/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mariem/multi_robot_ws/install/merge_map/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/merge_map build --build-base /home/mariem/multi_robot_ws/build/merge_map/build install --record /home/mariem/multi_robot_ws/build/merge_map/install.log --single-version-externally-managed install_data
+[1.017s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mariem/multi_robot_ws/src/merge_map' returned '0': PYTHONPATH=/home/mariem/multi_robot_ws/build/merge_map/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mariem/multi_robot_ws/install/merge_map/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/merge_map build --build-base /home/mariem/multi_robot_ws/build/merge_map/build install --record /home/mariem/multi_robot_ws/build/merge_map/install.log --single-version-externally-managed install_data
+[1.018s] Level 1:colcon.colcon_core.environment:checking '/home/mariem/multi_robot_ws/install/merge_map' for CMake module files
+[1.019s] Level 1:colcon.colcon_core.environment:checking '/home/mariem/multi_robot_ws/install/merge_map' for CMake config files
+[1.019s] Level 1:colcon.colcon_core.environment:checking '/home/mariem/multi_robot_ws/install/merge_map/lib'
+[1.019s] Level 1:colcon.colcon_core.environment:checking '/home/mariem/multi_robot_ws/install/merge_map/bin'
+[1.019s] Level 1:colcon.colcon_core.environment:checking '/home/mariem/multi_robot_ws/install/merge_map/lib/pkgconfig/merge_map.pc'
+[1.020s] Level 1:colcon.colcon_core.environment:checking '/home/mariem/multi_robot_ws/install/merge_map/lib/python3.10/site-packages'
+[1.020s] Level 1:colcon.colcon_core.shell:create_environment_hook('merge_map', 'pythonpath')
+[1.020s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mariem/multi_robot_ws/install/merge_map/share/merge_map/hook/pythonpath.ps1'
+[1.020s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mariem/multi_robot_ws/install/merge_map/share/merge_map/hook/pythonpath.dsv'
+[1.020s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mariem/multi_robot_ws/install/merge_map/share/merge_map/hook/pythonpath.sh'
+[1.021s] Level 1:colcon.colcon_core.environment:checking '/home/mariem/multi_robot_ws/install/merge_map/bin'
+[1.021s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(merge_map)
+[1.021s] INFO:colcon.colcon_core.shell:Creating package script '/home/mariem/multi_robot_ws/install/merge_map/share/merge_map/package.ps1'
+[1.022s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mariem/multi_robot_ws/install/merge_map/share/merge_map/package.dsv'
+[1.022s] INFO:colcon.colcon_core.shell:Creating package script '/home/mariem/multi_robot_ws/install/merge_map/share/merge_map/package.sh'
+[1.023s] INFO:colcon.colcon_core.shell:Creating package script '/home/mariem/multi_robot_ws/install/merge_map/share/merge_map/package.bash'
+[1.023s] INFO:colcon.colcon_core.shell:Creating package script '/home/mariem/multi_robot_ws/install/merge_map/share/merge_map/package.zsh'
+[1.024s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mariem/multi_robot_ws/install/merge_map/share/colcon-core/packages/merge_map)
+[1.742s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mariem/multi_robot_ws/build/explore_lite' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mariem/my_ros2_ws/install/my_turtlebot_gazebo:/home/mariem/multi_robot_ws/install/merge_map:/opt/ros/humble /usr/bin/cmake /home/mariem/multi_robot_ws/src/explore -DCMAKE_INSTALL_PREFIX=/home/mariem/multi_robot_ws/install/explore_lite
+[1.744s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mariem/multi_robot_ws/build/explore_lite': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mariem/my_ros2_ws/install/my_turtlebot_gazebo:/home/mariem/multi_robot_ws/install/merge_map:/opt/ros/humble /usr/bin/cmake --build /home/mariem/multi_robot_ws/build/explore_lite -- -j16 -l16
+[14.137s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mariem/multi_robot_ws/build/explore_lite' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mariem/my_ros2_ws/install/my_turtlebot_gazebo:/home/mariem/multi_robot_ws/install/merge_map:/opt/ros/humble /usr/bin/cmake --build /home/mariem/multi_robot_ws/build/explore_lite -- -j16 -l16
+[14.144s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mariem/multi_robot_ws/build/explore_lite': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mariem/my_ros2_ws/install/my_turtlebot_gazebo:/home/mariem/multi_robot_ws/install/merge_map:/opt/ros/humble /usr/bin/cmake --install /home/mariem/multi_robot_ws/build/explore_lite
+[14.156s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(explore_lite)
+[14.156s] Level 1:colcon.colcon_core.environment:checking '/home/mariem/multi_robot_ws/install/explore_lite' for CMake module files
+[14.156s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mariem/multi_robot_ws/build/explore_lite' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mariem/my_ros2_ws/install/my_turtlebot_gazebo:/home/mariem/multi_robot_ws/install/merge_map:/opt/ros/humble /usr/bin/cmake --install /home/mariem/multi_robot_ws/build/explore_lite
+[14.156s] Level 1:colcon.colcon_core.environment:checking '/home/mariem/multi_robot_ws/install/explore_lite' for CMake config files
+[14.156s] Level 1:colcon.colcon_core.shell:create_environment_hook('explore_lite', 'cmake_prefix_path')
+[14.157s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mariem/multi_robot_ws/install/explore_lite/share/explore_lite/hook/cmake_prefix_path.ps1'
+[14.157s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mariem/multi_robot_ws/install/explore_lite/share/explore_lite/hook/cmake_prefix_path.dsv'
+[14.157s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mariem/multi_robot_ws/install/explore_lite/share/explore_lite/hook/cmake_prefix_path.sh'
+[14.157s] Level 1:colcon.colcon_core.environment:checking '/home/mariem/multi_robot_ws/install/explore_lite/lib'
+[14.157s] Level 1:colcon.colcon_core.environment:checking '/home/mariem/multi_robot_ws/install/explore_lite/bin'
+[14.158s] Level 1:colcon.colcon_core.environment:checking '/home/mariem/multi_robot_ws/install/explore_lite/lib/pkgconfig/explore_lite.pc'
+[14.158s] Level 1:colcon.colcon_core.environment:checking '/home/mariem/multi_robot_ws/install/explore_lite/lib/python3.10/site-packages'
+[14.158s] Level 1:colcon.colcon_core.environment:checking '/home/mariem/multi_robot_ws/install/explore_lite/bin'
+[14.158s] INFO:colcon.colcon_core.shell:Creating package script '/home/mariem/multi_robot_ws/install/explore_lite/share/explore_lite/package.ps1'
+[14.158s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mariem/multi_robot_ws/install/explore_lite/share/explore_lite/package.dsv'
+[14.159s] INFO:colcon.colcon_core.shell:Creating package script '/home/mariem/multi_robot_ws/install/explore_lite/share/explore_lite/package.sh'
+[14.159s] INFO:colcon.colcon_core.shell:Creating package script '/home/mariem/multi_robot_ws/install/explore_lite/share/explore_lite/package.bash'
+[14.159s] INFO:colcon.colcon_core.shell:Creating package script '/home/mariem/multi_robot_ws/install/explore_lite/share/explore_lite/package.zsh'
+[14.159s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mariem/multi_robot_ws/install/explore_lite/share/colcon-core/packages/explore_lite)
+[14.159s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(explore_lite)
+[14.160s] Level 1:colcon.colcon_core.environment:checking '/home/mariem/multi_robot_ws/install/explore_lite' for CMake module files
+[14.160s] Level 1:colcon.colcon_core.environment:checking '/home/mariem/multi_robot_ws/install/explore_lite' for CMake config files
+[14.160s] Level 1:colcon.colcon_core.shell:create_environment_hook('explore_lite', 'cmake_prefix_path')
+[14.160s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mariem/multi_robot_ws/install/explore_lite/share/explore_lite/hook/cmake_prefix_path.ps1'
+[14.160s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mariem/multi_robot_ws/install/explore_lite/share/explore_lite/hook/cmake_prefix_path.dsv'
+[14.161s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mariem/multi_robot_ws/install/explore_lite/share/explore_lite/hook/cmake_prefix_path.sh'
+[14.161s] Level 1:colcon.colcon_core.environment:checking '/home/mariem/multi_robot_ws/install/explore_lite/lib'
+[14.161s] Level 1:colcon.colcon_core.environment:checking '/home/mariem/multi_robot_ws/install/explore_lite/bin'
+[14.161s] Level 1:colcon.colcon_core.environment:checking '/home/mariem/multi_robot_ws/install/explore_lite/lib/pkgconfig/explore_lite.pc'
+[14.161s] Level 1:colcon.colcon_core.environment:checking '/home/mariem/multi_robot_ws/install/explore_lite/lib/python3.10/site-packages'
+[14.161s] Level 1:colcon.colcon_core.environment:checking '/home/mariem/multi_robot_ws/install/explore_lite/bin'
+[14.161s] INFO:colcon.colcon_core.shell:Creating package script '/home/mariem/multi_robot_ws/install/explore_lite/share/explore_lite/package.ps1'
+[14.162s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mariem/multi_robot_ws/install/explore_lite/share/explore_lite/package.dsv'
+[14.162s] INFO:colcon.colcon_core.shell:Creating package script '/home/mariem/multi_robot_ws/install/explore_lite/share/explore_lite/package.sh'
+[14.162s] INFO:colcon.colcon_core.shell:Creating package script '/home/mariem/multi_robot_ws/install/explore_lite/share/explore_lite/package.bash'
+[14.162s] INFO:colcon.colcon_core.shell:Creating package script '/home/mariem/multi_robot_ws/install/explore_lite/share/explore_lite/package.zsh'
+[14.163s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mariem/multi_robot_ws/install/explore_lite/share/colcon-core/packages/explore_lite)
+[174.288s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mariem/multi_robot_ws/build/multirobot_map_merge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mariem/my_ros2_ws/install/my_turtlebot_gazebo:/home/mariem/multi_robot_ws/install/merge_map:/opt/ros/humble /usr/bin/cmake /home/mariem/multi_robot_ws/src/multirobot_map_merge -DCMAKE_INSTALL_PREFIX=/home/mariem/multi_robot_ws/install/multirobot_map_merge
+[174.289s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mariem/multi_robot_ws/build/multirobot_map_merge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mariem/my_ros2_ws/install/my_turtlebot_gazebo:/home/mariem/multi_robot_ws/install/merge_map:/opt/ros/humble /usr/bin/cmake --build /home/mariem/multi_robot_ws/build/multirobot_map_merge -- -j16 -l16
+[188.651s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mariem/multi_robot_ws/build/multirobot_map_merge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mariem/my_ros2_ws/install/my_turtlebot_gazebo:/home/mariem/multi_robot_ws/install/merge_map:/opt/ros/humble /usr/bin/cmake --build /home/mariem/multi_robot_ws/build/multirobot_map_merge -- -j16 -l16
+[188.652s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mariem/multi_robot_ws/build/multirobot_map_merge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mariem/my_ros2_ws/install/my_turtlebot_gazebo:/home/mariem/multi_robot_ws/install/merge_map:/opt/ros/humble /usr/bin/cmake --install /home/mariem/multi_robot_ws/build/multirobot_map_merge
+[188.664s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(multirobot_map_merge)
+[188.664s] Level 1:colcon.colcon_core.environment:checking '/home/mariem/multi_robot_ws/install/multirobot_map_merge' for CMake module files
+[188.664s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mariem/multi_robot_ws/build/multirobot_map_merge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mariem/my_ros2_ws/install/my_turtlebot_gazebo:/home/mariem/multi_robot_ws/install/merge_map:/opt/ros/humble /usr/bin/cmake --install /home/mariem/multi_robot_ws/build/multirobot_map_merge
+[188.664s] Level 1:colcon.colcon_core.environment:checking '/home/mariem/multi_robot_ws/install/multirobot_map_merge' for CMake config files
+[188.665s] Level 1:colcon.colcon_core.shell:create_environment_hook('multirobot_map_merge', 'cmake_prefix_path')
+[188.665s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mariem/multi_robot_ws/install/multirobot_map_merge/share/multirobot_map_merge/hook/cmake_prefix_path.ps1'
+[188.665s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mariem/multi_robot_ws/install/multirobot_map_merge/share/multirobot_map_merge/hook/cmake_prefix_path.dsv'
+[188.665s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mariem/multi_robot_ws/install/multirobot_map_merge/share/multirobot_map_merge/hook/cmake_prefix_path.sh'
+[188.666s] Level 1:colcon.colcon_core.environment:checking '/home/mariem/multi_robot_ws/install/multirobot_map_merge/lib'
+[188.666s] Level 1:colcon.colcon_core.environment:checking '/home/mariem/multi_robot_ws/install/multirobot_map_merge/bin'
+[188.666s] Level 1:colcon.colcon_core.environment:checking '/home/mariem/multi_robot_ws/install/multirobot_map_merge/lib/pkgconfig/multirobot_map_merge.pc'
+[188.666s] Level 1:colcon.colcon_core.environment:checking '/home/mariem/multi_robot_ws/install/multirobot_map_merge/lib/python3.10/site-packages'
+[188.666s] Level 1:colcon.colcon_core.environment:checking '/home/mariem/multi_robot_ws/install/multirobot_map_merge/bin'
+[188.666s] INFO:colcon.colcon_core.shell:Creating package script '/home/mariem/multi_robot_ws/install/multirobot_map_merge/share/multirobot_map_merge/package.ps1'
+[188.666s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mariem/multi_robot_ws/install/multirobot_map_merge/share/multirobot_map_merge/package.dsv'
+[188.667s] INFO:colcon.colcon_core.shell:Creating package script '/home/mariem/multi_robot_ws/install/multirobot_map_merge/share/multirobot_map_merge/package.sh'
+[188.667s] INFO:colcon.colcon_core.shell:Creating package script '/home/mariem/multi_robot_ws/install/multirobot_map_merge/share/multirobot_map_merge/package.bash'
+[188.667s] INFO:colcon.colcon_core.shell:Creating package script '/home/mariem/multi_robot_ws/install/multirobot_map_merge/share/multirobot_map_merge/package.zsh'
+[188.668s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mariem/multi_robot_ws/install/multirobot_map_merge/share/colcon-core/packages/multirobot_map_merge)
+[188.668s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(multirobot_map_merge)
+[188.668s] Level 1:colcon.colcon_core.environment:checking '/home/mariem/multi_robot_ws/install/multirobot_map_merge' for CMake module files
+[188.668s] Level 1:colcon.colcon_core.environment:checking '/home/mariem/multi_robot_ws/install/multirobot_map_merge' for CMake config files
+[188.669s] Level 1:colcon.colcon_core.shell:create_environment_hook('multirobot_map_merge', 'cmake_prefix_path')
+[188.669s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mariem/multi_robot_ws/install/multirobot_map_merge/share/multirobot_map_merge/hook/cmake_prefix_path.ps1'
+[188.669s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mariem/multi_robot_ws/install/multirobot_map_merge/share/multirobot_map_merge/hook/cmake_prefix_path.dsv'
+[188.669s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mariem/multi_robot_ws/install/multirobot_map_merge/share/multirobot_map_merge/hook/cmake_prefix_path.sh'
+[188.669s] Level 1:colcon.colcon_core.environment:checking '/home/mariem/multi_robot_ws/install/multirobot_map_merge/lib'
+[188.670s] Level 1:colcon.colcon_core.environment:checking '/home/mariem/multi_robot_ws/install/multirobot_map_merge/bin'
+[188.670s] Level 1:colcon.colcon_core.environment:checking '/home/mariem/multi_robot_ws/install/multirobot_map_merge/lib/pkgconfig/multirobot_map_merge.pc'
+[188.670s] Level 1:colcon.colcon_core.environment:checking '/home/mariem/multi_robot_ws/install/multirobot_map_merge/lib/python3.10/site-packages'
+[188.670s] Level 1:colcon.colcon_core.environment:checking '/home/mariem/multi_robot_ws/install/multirobot_map_merge/bin'
+[188.670s] INFO:colcon.colcon_core.shell:Creating package script '/home/mariem/multi_robot_ws/install/multirobot_map_merge/share/multirobot_map_merge/package.ps1'
+[188.670s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mariem/multi_robot_ws/install/multirobot_map_merge/share/multirobot_map_merge/package.dsv'
+[188.671s] INFO:colcon.colcon_core.shell:Creating package script '/home/mariem/multi_robot_ws/install/multirobot_map_merge/share/multirobot_map_merge/package.sh'
+[188.671s] INFO:colcon.colcon_core.shell:Creating package script '/home/mariem/multi_robot_ws/install/multirobot_map_merge/share/multirobot_map_merge/package.bash'
+[188.671s] INFO:colcon.colcon_core.shell:Creating package script '/home/mariem/multi_robot_ws/install/multirobot_map_merge/share/multirobot_map_merge/package.zsh'
+[188.671s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mariem/multi_robot_ws/install/multirobot_map_merge/share/colcon-core/packages/multirobot_map_merge)
+[188.671s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[188.672s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[188.672s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[188.672s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[188.676s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[188.676s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[188.676s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[188.684s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[188.684s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mariem/multi_robot_ws/install/local_setup.ps1'
+[188.685s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mariem/multi_robot_ws/install/_local_setup_util_ps1.py'
+[188.686s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mariem/multi_robot_ws/install/setup.ps1'
+[188.687s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mariem/multi_robot_ws/install/local_setup.sh'
+[188.687s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mariem/multi_robot_ws/install/_local_setup_util_sh.py'
+[188.688s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mariem/multi_robot_ws/install/setup.sh'
+[188.689s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mariem/multi_robot_ws/install/local_setup.bash'
+[188.689s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mariem/multi_robot_ws/install/setup.bash'
+[188.690s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mariem/multi_robot_ws/install/local_setup.zsh'
+[188.690s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mariem/multi_robot_ws/install/setup.zsh'

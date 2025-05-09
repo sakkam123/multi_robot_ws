@@ -1,0 +1,35 @@
+[0.269s] Invoking command in '/home/mariem/multi_robot_ws/build/multirobot_map_merge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mariem/multi_robot_ws/install/merge_map:/home/mariem/my_ros2_ws/install/my_turtlebot_gazebo:/opt/ros/humble /usr/bin/cmake --build /home/mariem/multi_robot_ws/build/multirobot_map_merge -- -j16 -l16
+[0.305s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.450s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.466s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.507s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.511s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.521s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.536s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.554s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.602s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.606s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.733s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.796s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.810s] -- Found image_geometry: 3.2.1 (/opt/ros/humble/share/image_geometry/cmake)
+[0.844s] -- Found map_msgs: 2.1.0 (/opt/ros/humble/share/map_msgs/cmake)
+[0.887s] -- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.892s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.894s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.109s] -- Configuring done
+[1.189s] -- Generating done
+[1.198s] -- Build files have been written to: /home/mariem/multi_robot_ws/build/multirobot_map_merge
+[1.230s] [35m[1mConsolidate compiler generated dependencies of target combine_grids[0m
+[1.251s] [ 33%] [32mBuilding CXX object CMakeFiles/combine_grids.dir/src/combine_grids/grid_warper.cpp.o[0m
+[1.252s] [ 33%] [32mBuilding CXX object CMakeFiles/combine_grids.dir/src/combine_grids/grid_compositor.cpp.o[0m
+[1.253s] [ 50%] [32mBuilding CXX object CMakeFiles/combine_grids.dir/src/combine_grids/merging_pipeline.cpp.o[0m
+[5.060s] [ 66%] [32m[1mLinking CXX static library libcombine_grids.a[0m
+[5.104s] [ 66%] Built target combine_grids
+[5.118s] [35m[1mConsolidate compiler generated dependencies of target map_merge[0m
+[5.173s] [ 83%] [32mBuilding CXX object CMakeFiles/map_merge.dir/src/map_merge.cpp.o[0m
+[6.165s] In file included from [01m[K/home/mariem/multi_robot_ws/src/multirobot_map_merge/src/map_merge.cpp:6[m[K:
+[6.165s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[6.165s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[6.165s]       |  [01;35m[K^~~~~~~[m[K
+[17.364s] [100%] [32m[1mLinking CXX executable map_merge[0m
+[18.225s] [100%] Built target map_merge
