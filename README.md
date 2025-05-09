@@ -25,3 +25,13 @@ cd ~/multi_robot_ws
 source /opt/ros/humble/setup.bash
 colcon build --symlink-install
 ```
+After the build process finishes, source the workspace setup file to ensure ROS 2 knows about the workspace and its packages:
+```bash
+source install/setup.bash
+```
+### 4. Launch the Simulation
+Once everything is set up, you can launch the multi-robot simulation with the following command:
+```bash
+ros2 launch multirobot_map_merge multi_tb3_simulation_launch.py slam_toolbox:=True
+```
+This will start the simulation with SLAM functionality enabled for multiple TurtleBot3 robots.
