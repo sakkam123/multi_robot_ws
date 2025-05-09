@@ -45,3 +45,20 @@ Once everything is set up, you can launch the multi-robot simulation with the fo
 ros2 launch multirobot_map_merge multi_tb3_simulation_launch.py slam_toolbox:=True
 ```
 This will start the simulation with SLAM functionality enabled for multiple TurtleBot3 robots.
+### 5. Navigation Launch
+
+To launch the Navigation2 stack for each robot with its respective map:
+
+```bash
+# Launch Nav2 for Robot 1
+ros2 launch nav2_bringup bringup_launch.py \
+  namespace:=robot1 \
+  use_sim_time:=true \
+  map:=/home/mariem/multi_robot_ws/src/your_package/maps/robot1_map.yaml
+
+# Launch Nav2 for Robot 2
+ros2 launch nav2_bringup bringup_launch.py \
+  namespace:=robot2 \
+  use_sim_time:=true \
+  map:=/home/mariem/multi_robot_ws/src/your_package/maps/robot2_map.yaml
+```
