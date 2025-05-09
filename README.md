@@ -62,3 +62,13 @@ ros2 launch nav2_bringup bringup_launch.py \
   use_sim_time:=true \
   map:=/home/mariem/multi_robot_ws/src/your_package/maps/robot2_map.yaml
 ```
+### 6. Autonomous Exploration
+
+To launch autonomous exploration using the `explore_lite` package for each robot:
+
+```bash
+# Launch exploration for Robot 1
+ros2 launch $(ros2 pkg prefix explore_lite)/share/explore_lite/launch/robot1_explore.launch.py use_sim_time:=true
+
+# Launch exploration for Robot 2
+ros2 launch $(ros2 pkg prefix explore_lite)/share/explore_lite/launch/robot2_explore.launch.py use_sim_time:=true
